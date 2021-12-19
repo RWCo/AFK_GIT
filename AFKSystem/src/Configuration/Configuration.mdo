@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06ec29b9-ee82-4eeb-977d-1fde1e03dcfb">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="34cf084a-7089-498d-b4b4-e09efa3eb294"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="918c37c3-a02a-4d7b-a638-d74846053faf"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="87191670-5166-4c8c-be16-ff1476442aee"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8720a1a1-67ba-434b-99d8-58ce7fd571a8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7c362b07-0771-4c0f-a6b4-981c7c25c5aa"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3ed95f0e-6473-4f81-8cd6-2bdd8a480c81"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="08559626-e95c-45f2-a4ec-7cd329ac0612"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>AFKSystem</vendor>
+  <version>1.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="2395539b-509a-4117-87a6-73c8b47000dd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Администратор</roles>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Основной</accountingRegisters>
+</mdclass:Configuration>

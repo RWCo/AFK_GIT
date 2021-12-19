@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1d1878d-f116-4229-a46c-50d58f24762f">
+  <producedTypes>
+    <objectType typeId="a270bd39-23d1-4d86-a9ec-f2d4e2fe55d1" valueTypeId="9278c437-07a2-4cc7-acac-ef190cc43106"/>
+    <refType typeId="c394408d-8439-49ed-8cfe-ea5b818c0ac6" valueTypeId="acca1897-f398-4adb-a515-21d9311d93e8"/>
+    <selectionType typeId="5c40829d-ab70-475c-8344-622e0266b1bb" valueTypeId="32cb23cf-f151-411d-8939-7d443c3b0167"/>
+    <listType typeId="a0ab3335-93c1-480f-bf9a-9efb63272d2b" valueTypeId="e09cc7dc-8245-4989-aabf-a38bdba59d44"/>
+    <managerType typeId="fcedd43e-074f-405b-ab11-923d54876751" valueTypeId="c4676cce-9f45-4813-bdca-add3dbc8d717"/>
+    <containerType typeId="979568f3-4c53-4a46-9abf-0c29295c1a56" valueTypeId="afd3ae18-3edb-4fcd-a8d5-e2c9ea8b5649"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Договоры</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Партнеры</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="92fc8748-7a35-4369-b0b5-644e257c4416">
+      <name>Договор</name>
+      <description>Договор</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Договоры</types>
+      </type>
+    </items>
+    <items id="20651a30-3841-415a-b512-efd303f5be7b">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="875ec17c-662c-4471-8fd1-6c6833d06e29">
+      <name>Партнеры</name>
+      <description>Партнеры</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Партнеры</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

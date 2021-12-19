@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e7860e8-3827-4d87-8aba-0facebc8b23b">
+  <producedTypes>
+    <selectionType typeId="d821c62e-7ae0-4e05-b2ae-486a80cda16d" valueTypeId="297f7012-a13b-4bca-a2f2-097b3da37193"/>
+    <listType typeId="f37cef85-2b9d-49c6-9320-c82d67b9341a" valueTypeId="f6fbe959-22fe-40a7-b796-40edfe0ddcf3"/>
+    <managerType typeId="0f02f2ed-4e35-4c24-b79c-d25677b4a820" valueTypeId="709c3dfa-79b5-4ede-bdf3-d370f3dd8c31"/>
+    <recordSetType typeId="651810f2-d737-4833-95ba-b20b77898739" valueTypeId="1eb9e99c-6a63-412a-ad63-aa30472ca649"/>
+    <recordKeyType typeId="6adf67e9-71a9-440f-b952-c9df4c3bc182" valueTypeId="c7a364d6-6a0f-4a4f-8166-ad46df346a62"/>
+    <recordType typeId="7ba5e97f-4496-417c-b4b0-866bac400aa4" valueTypeId="94cb8573-403c-49f3-aa23-f4d301ba35de"/>
+    <extDimensionsType typeId="49a7d11f-69a0-4a39-865a-a8cbcb12de7e" valueTypeId="36925069-d70e-4dd7-a1e8-d3602b204e6e"/>
+  </producedTypes>
+  <name>Основной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Основной</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1cde2479-2528-4c2c-8df3-08380ed1b426">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+    <accountingFlag>ChartOfAccounts.Основной.AccountingFlag.Суммовой</accountingFlag>
+  </resources>
+</mdclass:AccountingRegister>
